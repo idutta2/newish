@@ -15,3 +15,4 @@ class trial_class():
 
 if __name__ == "__main__":
 	print("HELLO WORLD :D")
+	bool = trial_class().trial_func1(1)
