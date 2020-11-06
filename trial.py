@@ -13,6 +13,11 @@ class trial_class():
 			return false
 		return true
 
+	def trial_func2(self, ref):
+		if ref == "1234":
+			return true
+		return false
+
 if __name__ == "__main__":
 	print("HELLO WORLD :D")
 	bool = trial_class().trial_func1(1)
