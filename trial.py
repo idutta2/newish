@@ -19,5 +19,5 @@ class trial_class():
 		return false
 
 if __name__ == "__main__":
-	print("GOODBYE MARS D:")
+	print("HI EARTH! :D")
 	bool = trial_class().trial_func1(1)
