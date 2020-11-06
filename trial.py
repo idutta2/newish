@@ -1,5 +1,6 @@
 ## NEW FILE ADD HERE
 import temp
+import drop
 import os 
 import sys
 
@@ -11,3 +12,6 @@ class trial_class():
 		if id== "1":
 			return true
 		return false
+
+if __name__ == "__main__":
+	print("HELLO WORLD :D")
