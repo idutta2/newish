@@ -18,6 +18,12 @@ class trial_class():
 			return true
 		return false
 
+	def trial_func3(self, cray):
+		cray = cray + 1
+		return cray
+
 if __name__ == "__main__":
 	print("HI EARTH! :D")
-	bool = trial_class().trial_func1(1)
+	val = trial_class().trial_func3(1)
+
+	print("val : ", val)
