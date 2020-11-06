@@ -10,8 +10,9 @@ class trial_class():
 
 	def trial_func1(self, id):
 		if id== "1":
-			return true
-		return false
+			return false
+		return true
 
 if __name__ == "__main__":
 	print("HELLO WORLD :D")
+	bool = trial_class().trial_func1(1)
