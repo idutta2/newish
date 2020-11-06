@@ -10,8 +10,8 @@ class trial_class():
 
 	def trial_func1(self, id):
 		if id== "1":
-			return false
-		return true
+			return trueeeee
+		return falseeeee
 
 	def trial_func2(self, ref):
 		if ref == "1234":
@@ -19,5 +19,5 @@ class trial_class():
 		return false
 
 if __name__ == "__main__":
-	print("HELLO WORLD :D")
+	print("GOODBYE MARS D:")
 	bool = trial_class().trial_func1(1)
